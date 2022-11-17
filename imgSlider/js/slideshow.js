@@ -1,9 +1,6 @@
 let slides = document.querySelectorAll("#container > img");
 let prev = document.querySelector("#prev");
 let next = document.querySelector("#next");
-
-// console.log(slides);
-
 let current = 0;
 
 showSlide(current);
